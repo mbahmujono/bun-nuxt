@@ -1,0 +1,46 @@
+name: Deploy to AWS Lambda
+
+on:
+  push:
+    branches:
+      - main  # Set your default branch here
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'  # Set your Node.js version here
+
+      - name: Change to project directory
+        run: cd landing
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./landing
+
+      - name: Build
+        run: npm run build
+        working-directory: ./landing
+
+      - name: Archive production artifacts
+        run: zip -r nuxt-output.zip .output
+        working-directory: ./landing
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Deploy to AWS Lambda
+        run: |
+          aws lambda update-function-code --function-name landingpage --zip-file fileb://nuxt-output.zip
+        working-directory: ./landing
