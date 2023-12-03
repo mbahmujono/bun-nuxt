@@ -31,7 +31,7 @@ jobs:
         working-directory: ./landing
 
       - name: Adjust File Structure
-        run: mv .output/lambda.js .output/lambda.js
+        run: mv lambda.js .output/lambda.js
         working-directory: ./landing
 
       - name: Archive production artifacts
