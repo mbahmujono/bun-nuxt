@@ -11,5 +11,8 @@ module.exports = {
         'vue'
     ],
     // add your custom rules here
-    rules: {}
+    rules: {
+        'indent': 'off',
+        'vue/html-indent': 'off'
+    }
 }
