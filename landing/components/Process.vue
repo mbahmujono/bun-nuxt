@@ -2,8 +2,8 @@
     <div class="process-section pt-100 pb-70 bg-off-white">
         <div class="container">
             <div class="section-title section-title-lg">
-                <small>Our Workflow</small>
-                <h2>Bagaimana Kami Adopsi AI dan Machine Learning ke Dalam Implementasi Bisnis Anda</h2>
+                <small>Our Implementation Framework</small>
+                <h2>How we build solution with maximum measurable impact for you</h2>
             </div>
             <div class="process-content">
                 <div class="process-content-line"></div>

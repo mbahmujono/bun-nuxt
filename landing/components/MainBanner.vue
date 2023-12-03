@@ -5,14 +5,14 @@
                 <div class="col-lg-6 p-lg-0">
                     <div class="max-585 ms-auto">
                         <div class="header-content">
-                            <h1>Inovasi Terkini, Hasil Nyata</h1>
-                            <p>Pahami data pelanggan lebih dalam, percepat proses bisnis dan optimalkan operasional dengan model AI dan ML enterprise-grade kami.</p>
+                            <h1>Innovative AI Solutions for Measurable Impact</h1>
+                            <p>Navigating the complex landscape of today’s market requires more than just ideas – it demands solutions that merge creativity with measurable business outcomes.</p>
                             <div class="button-group button-group-animated">
                                 <router-link to="/" class="btn main-btn">
-                                    Jelajahi Solusi Kami
+                                    Discover AI Solutions
                                 </router-link>
                                 <router-link to="/" class="btn main-btn main-btn-white">
-                                    Hubungi Kami
+                                    Talk with our team
                                 </router-link>
                             </div>
                         </div>
