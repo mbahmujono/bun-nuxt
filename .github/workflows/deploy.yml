@@ -30,12 +30,8 @@ jobs:
         run: bun run build
         working-directory: ./landing
 
-      - name: Adjust File Structure
-        run: mv lambda.js .output/lambda.js
-        working-directory: ./landing
-
       - name: Archive production artifacts
-        run: zip -r nuxt-output.zip .output
+        run: zip -r nuxt-output.zip .output lambda.js
         working-directory: ./landing
 
       - name: Configure AWS credentials
