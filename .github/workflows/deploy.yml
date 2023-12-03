@@ -30,6 +30,10 @@ jobs:
         run: bun run build
         working-directory: ./landing
 
+      - name: Adjust File Structure
+        run: mv .output/lambda.js .output/lambda.js
+        working-directory: ./landing
+
       - name: Archive production artifacts
         run: zip -r nuxt-output.zip .output
         working-directory: ./landing
