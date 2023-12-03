@@ -65,7 +65,7 @@
                                     </nuxt-link>
                                 </li>
                                 <li class="nav-item">
-                                    <nuxt-link to="/" class="nav-link">
+                                    <nuxt-link to="/about" class="nav-link">
                                         About Us
                                     </nuxt-link>
                                 </li>
@@ -265,7 +265,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <nuxt-link to="/" class="nav-link">Contact</nuxt-link>
+                                    <nuxt-link to="/contact" class="nav-link">Contact</nuxt-link>
                                 </li>
                             </ul>
                         </div>

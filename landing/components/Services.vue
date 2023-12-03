@@ -13,8 +13,8 @@
                             <i class="flaticon-automation"></i>
                         </div>
                         <div class="service-card-body">
-                            <h3>Robotic Automation</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <h3>Cognitive Robotic Process Automation</h3>
+                            <p>Handle your inefficent and repetitive task with Cognitive RPA backed by Matter AI core. Robots with brain and platform agnostic. </p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="service-card-body">
                             <h3>Predictive Analytics</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <p>Real time data prediction analysis. Create data-driven decision and action real time for your business.</p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>
@@ -44,7 +44,7 @@
                         </div>
                         <div class="service-card-body">
                             <h3>Deep Learning</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <p>Machine learning modelling with multiple neural network algorithm to reinforce your business.</p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>
@@ -58,8 +58,8 @@
                             <i class="flaticon-data-mining"></i>
                         </div>
                         <div class="service-card-body">
-                            <h3>Data Mining</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <h3>AI Apps</h3>
+                            <p>AI App development with our Matter AI API. Integrate your solution into a real production grade web-app/mobile app for your company</p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="service-card-body">
                             <h3>Statistical Modeling</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <p>Research assistive AI to help education institute in Indonesia to deliver accurate research result faster</p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>
@@ -89,7 +89,7 @@
                         </div>
                         <div class="service-card-body">
                             <h3>Security & Surveillance</h3>
-                            <p>Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+                            <p>Computer Vision AI and single identity to create innovative security measurement/data analysis based on biometrical data and computer vision</p>
                             <router-link to="/" class="redirect-link">
                                 Discover More 
                                 <i class="icofont-rounded-right"></i>

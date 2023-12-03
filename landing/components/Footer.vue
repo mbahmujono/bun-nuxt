@@ -51,12 +51,12 @@
                                 <h3>Useful Links</h3>
                             </div>
                             <ul class="footer-details footer-list">
-                                <li><router-link to="/">About Us</router-link></li>
+                                <li><router-link to="/about">About Us</router-link></li>
                                 <li><router-link to="/">News & Blogs</router-link></li>
                                 <li><router-link to="/">Services</router-link></li>
                                 <li><router-link to="/">Products</router-link></li>
                                 <li><router-link to="/">Our Pricing</router-link></li>
-                                <li><router-link to="/">Contact</router-link></li>
+                                <li><router-link to="/contact">Contact</router-link></li>
                             </ul>
                         </div>
                     </div>
