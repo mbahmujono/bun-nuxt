@@ -19,11 +19,15 @@ jobs:
           node-version: '20'  # Make sure this version is compatible
 
       - name: Install dependencies
-        run: npm install
+        run: npm install -g bun
+        working-directory: ./landing
+
+      - name: Install with Bun
+        run: bun install
         working-directory: ./landing
 
       - name: Build
-        run: npm run build
+        run: bun run build
         working-directory: ./landing
 
       - name: Archive production artifacts
