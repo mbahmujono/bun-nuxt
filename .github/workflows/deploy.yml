@@ -16,10 +16,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '20'  # Set your Node.js version here
-
-      - name: Change to project directory
-        run: cd landing
+          node-version: '20'  # Make sure this version is compatible
 
       - name: Install dependencies
         run: npm install
@@ -42,5 +39,6 @@ jobs:
 
       - name: Deploy to AWS Lambda
         run: |
-          aws lambda update-function-code --function-name landingpage --zip-file fileb://nuxt-output.zip
+          aws lambda update-function-code --function-name ${{ secrets.FUNCTION_NAME }} --zip-file fileb://nuxt-output.zip
         working-directory: ./landing
+
