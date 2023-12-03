@@ -6,7 +6,7 @@ const carouselItems = ref([
                 desc: 'Implementasi Machine Learning memungkinkan PT I mengantisipasi produksi energi dari sumber terbarukan yang tidak stabil. Model ML meningkatkan keandalan suplai listrik, menghindari pemadaman dan memaksimalkan efisiensi operasional dalam aktivitas pengurangan dampak lingkungan.',
                 image: '/assets/images/testimonial-1.jpg',
                 name: 'Power Grid',
-                address: 'Indonesia',
+                address: 'Indonesia'
             },
             {
                 id: 2,
@@ -14,7 +14,7 @@ const carouselItems = ref([
                 desc: 'Perusahaan Franchise Ritel terbesar di Indonesia menggunakan model ML untuk memprediksi permintaan produk dan mengoptimalkan persediaan di setiap gerai. Model ML kami meningkatkan akurasi prediksi permintaan produk hingga 30% dan mengurangi biaya persediaan hingga 20%.',
                 image: '/assets/images/testimonial-2.jpg',
                 name: 'Retail Chain',
-                address: 'Indonesia',
+                address: 'Indonesia'
             },
             {
                 id: 3,
@@ -22,7 +22,7 @@ const carouselItems = ref([
                 desc: 'Analisa prediktif kami membantu perusahaan asuransi meningkatkan efektivitas kampanye pemasaran mereka dari sales history dan 40 faktor variable kampanye. Model ML kami meningkatkan akurasi prediksi konversi hingga 40% dan mengurangi biaya pemasaran hingga 30%.',
                 image: '/assets/images/testimonial-3.jpg',
                 name: 'Insurance Company',
-                address: 'Indonesia',
+                address: 'Indonesia'
             },
             {
                 id: 4,
@@ -30,7 +30,7 @@ const carouselItems = ref([
                 desc: 'Sebuah startup unicorn di Indonesia menggunakan Rancangan Foundational Model dari AI kami untuk membangun AI backend mereka. Model AI kami meningkatkan kecepatan generatif aplikasi hingga 200% dan meningkatkan kepatuhan respons terhadap instruksi 37% lebih akurat dibandingkan produk API ChatGPT 4 dari OpenAI.',
                 image: '/assets/images/testimonial-4.jpg',
                 name: 'Startup',
-                address: 'Indonesia',
+                address: 'Indonesia'
             },
         ]);
 

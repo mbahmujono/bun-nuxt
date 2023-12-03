@@ -20,7 +20,7 @@
                             <ul class="topbar-list">
                                 <li>
                                     <i class="icofont-paper-plane"></i>
-                                    <router-link to="/contact">Buat Jadwal</router-link>
+                                    <nuxt-link to="/contact">Buat Jadwal</nuxt-link>
                                 </li>
                                 <li 
                                     class="search-option"
@@ -43,10 +43,9 @@
             <div class="main-nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <router-link class="navbar-brand" to="/">
-                            <img src="/assets/images/logo.png" alt="logo" class="logo">
-                        </router-link>
-
+                        <nuxt-link class="navbar-brand" to="/">
+                            <img src="~/assets/images/logo.png" alt="logo" class="logo">
+                        </nuxt-link>                      
                         <div 
                             class="navbar-toggler"
                             @click="active = !active" 
@@ -58,45 +57,30 @@
                             <i class="icofont-close"></i>
                         </div>
 
-                        <div class="collapse navbar-collapse" :class="{ show: active }">
+                        <div class="navbar-collapse">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">Home</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item ">
-                                            <router-link to="/" class="nav-link">
-                                                Home Demo 1
-                                            </router-link>
-                                        </li>
-                                        <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
-                                                Home Demo 2
-                                            </router-link>
-                                        </li>
-                                        <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
-                                                Home Demo 3
-                                            </router-link>
-                                        </li>
-                                    </ul>
+                                    <nuxt-link to="/" :class="'nav-link'">
+                                                Home
+                                    </nuxt-link>
                                 </li>
                                 <li class="nav-item">
-                                    <router-link to="/" class="nav-link">
+                                    <nuxt-link to="/" class="nav-link">
                                         About Us
-                                    </router-link>
+                                    </nuxt-link>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link dropdown-toggle">Services</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Services
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Single Service
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                     </ul>
                                 </li>
@@ -104,32 +88,32 @@
                                     <a href="#" class="nav-link dropdown-toggle">Pages</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Pricing
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 FAQ's
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Our Team
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link dropdown-toggle">Projects</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Projects
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Single Project
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -137,59 +121,59 @@
                                             <a href="#" class="nav-link dropdown-toggle">Case Study</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/cases" class="nav-link">
+                                                    <nuxt-link to="/cases" class="nav-link">
                                                         Case
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Cases Two Columns
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Single Case
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Testimonial
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Our Clients
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Careers
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link dropdown-toggle">Products</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Products
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Single Product
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Cart
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Checkout
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -197,29 +181,29 @@
                                             <a href="#" class="nav-link dropdown-toggle">Users</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Authentication
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Forget Password
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         My Account
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         My Orders
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         My Addresses
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -227,34 +211,34 @@
                                             <a href="#" class="nav-link dropdown-toggle">Others</a>
                                             <ul class="dropdown-menu">
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Demo Product
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Feedback
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Terms Of Service
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Privacy Policy
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Search Page
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <router-link to="/" class="nav-link">
+                                                    <nuxt-link to="/" class="nav-link">
                                                         Coming Soon
-                                                    </router-link>
+                                                    </nuxt-link>
                                                 </li>
                                             </ul>
                                         </li>
@@ -264,32 +248,32 @@
                                     <a href="#" class="nav-link dropdown-toggle">Blogs</a>
                                     <ul class="dropdown-menu">
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Blogs Grid
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Blogs Right Sidebar
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                         <li class="nav-item">
-                                            <router-link to="/" class="nav-link">
+                                            <nuxt-link to="/" class="nav-link">
                                                 Single Blog
-                                            </router-link>
+                                            </nuxt-link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <router-link to="/" class="nav-link">Contact</router-link>
+                                    <nuxt-link to="/" class="nav-link">Contact</nuxt-link>
                                 </li>
                             </ul>
                         </div>
                         <div class="navbar-option">
                             <div class="navbar-option-item">
-                                <router-link to="/" class="btn main-btn">
+                                <nuxt-link to="/" class="btn main-btn">
                                     Login Or Register
-                                </router-link>
+                                </nuxt-link>
                             </div>
                         </div>
                     </nav>
@@ -306,9 +290,9 @@
             </div>
             <div class="search-form-area">
                 <div class="search-area-logo">
-                    <router-link to="/">
+                    <nuxt-link to="/">
                         <img src="/assets/images/logo-white.png" alt="logo">
-                    </router-link>
+                    </nuxt-link>
                 </div>
                 <form>
                     <div class="form-group search-form-group">
@@ -339,13 +323,13 @@ export default {
     mounted(){
         const that = this
         window.addEventListener('scroll', () => {
-            let scrollPos = window.scrollY
+            const scrollPos = window.scrollY
             if(scrollPos >= 100){
                 that.isSticky = true
             } else {
                 that.isSticky = false
             }
         })
-    },
+    }
 }
 </script>
