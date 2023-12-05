@@ -5,7 +5,7 @@
                 <div class="col-lg-6 p-lg-0">
                     <div class="max-585 ms-auto">
                         <div class="header-content">
-                            <h1>Innovative AI Solutions for Measurable Impact</h1>
+                            <h1 style="font-size: 55px;">Innovative AI Solutions for Measurable Impact</h1>
                             <p>Navigating the complex landscape of today’s market requires more than just ideas – it demands solutions that merge creativity with measurable business outcomes.</p>
                             <div class="button-group button-group-animated">
                                 <router-link to="/" class="btn main-btn">

@@ -57,7 +57,7 @@
                             <i class="icofont-close"></i>
                         </div>
 
-                        <div class="navbar-collapse">
+                        <div class="navbar-collapse" :class="{ 'collapse': active }">
                             <ul class="navbar-nav mx-auto">
                                 <li class="nav-item">
                                     <nuxt-link to="/" :class="'nav-link'">
@@ -330,6 +330,18 @@ export default {
                 that.isSticky = false
             }
         })
+
+        window.addEventListener('resize', this.checkWidth)
+
+        this.checkWidth()
+    },
+    beforeUnmount(){
+        window.removeEventListener('resize', this.checkWidth)
+    },
+    methods: {
+        checkWidth(){
+            this.active = window.innerWidth > 991 ? false : true
+        }
     }
 }
 </script>
