@@ -16,13 +16,19 @@ export default defineNuxtConfig({
     'vue3-carousel-nuxt'
   ],
   css: [
-    'assets/css/animate.min.css',
-    'assets/css/bootstrap.min.css',
-    'assets/css/flaticon.css',
-    'assets/css/icofont.min.css', 
-    'assets/css/mstyle.css',
-    'assets/css/responsive.css',
-    'assets/css/meanmenu.min.css',
-    'assets/css/responsive.scss'
+    '~/assets/css/animate.min.css',
+    '~/assets/css/bootstrap.min.css',
+    '~/assets/css/flaticon.css',
+    '~/assets/css/icofont.min.css', 
+    '~/assets/css/mstyle.css',
+    '~/assets/css/responsive.css',
+    '~/assets/css/meanmenu.min.css',
+    '~/assets/css/responsive.scss'
   ],
+  googleFonts: {
+    families: {
+      Roboto: true,
+      Poppins: true
+    }
+  }
 })
