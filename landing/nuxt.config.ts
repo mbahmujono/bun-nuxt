@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     '~/assets/css/mstyle.css',
     '~/assets/css/responsive.css',
     '~/assets/css/meanmenu.min.css',
-    '~/assets/css/responsive.scss'
+    '~/assets/css/responsive.scss',
   ],
   googleFonts: {
     families: {

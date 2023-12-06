@@ -18,7 +18,3 @@
     <Footer />
   </div>
 </template>
-
-<!-- <style lang="scss">
-@use "~/assets/custom.scss";
-</style> -->

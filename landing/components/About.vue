@@ -21,7 +21,7 @@
                                 <li>Continous ML Research</li>
                                 <li>AGI</li>
                             </ul>
-                            <router-link to="/about-us" class="btn main-btn">About Us</router-link>
+                            <router-link to="/about" class="btn main-btn">About Us</router-link>
                         </div>
                     </div>
                 </div>
